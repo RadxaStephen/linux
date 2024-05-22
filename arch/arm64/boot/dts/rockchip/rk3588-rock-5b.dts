@@ -1255,3 +1255,12 @@
 		/* GPIO4_D4-D7 */
 		"", "", "", "";
 };
+
+&gpu {
+	status = "disabled";
+};
+
+&gpu_panthor {
+	status = "okay";
+	mali-supply = <&vdd_gpu_s0>;
+};

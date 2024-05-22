@@ -1394,6 +1394,7 @@ static int panthor_probe(struct platform_device *pdev)
 
 	platform_set_drvdata(pdev, ptdev);
 
+	printk("panthor_probe from radxa kernel tree\n");
 	return panthor_device_init(ptdev);
 }
 
